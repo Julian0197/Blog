@@ -1,0 +1,17 @@
+{
+  "name": "Blog",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "MSK <msk123@foxmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "vuepress": "^1.9.9"
+  },
+  "scripts": {
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs"
+  },
+  "dependencies": {
+    "vuepress-theme-reco": "^1.6.17"
+  }
+}
